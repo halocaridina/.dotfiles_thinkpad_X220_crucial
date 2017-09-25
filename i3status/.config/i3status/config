@@ -63,7 +63,7 @@ battery 0 {
         threshold_type = "percentage"
         integer_battery_capacity = true
         hide_seconds = true
-        format = "%status %percentage %remaining %consumption"
+        format = "%status %percentage %remaining %consumption "
         status_chr = " :"
         status_bat = " :"
         status_full = " :"
