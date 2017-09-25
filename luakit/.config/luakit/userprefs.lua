@@ -8,8 +8,10 @@ settings.window.new_window_size                       = "1366x768"
 settings.window.load_etc_hosts                        = false
 -- settings.vertical_tabs.sidebar_width                  = 200
 
-settings.on["all"].webview.zoom_level                 = 110
-settings.on["all"].webview.enable_webgl               = true
+-- settings.on["all"].webview.zoom_level                 = 110
+-- settings.on["all"].webview.enable_webgl               = true
+settings.webview.zoom_level                          = 110
+settings.webview.enable_webgl                        = true
 settings.on["youtube.com"].webview.enable_javascript  = true
 settings.on["youtube.com"].webview.enable_plugins     = true
 
