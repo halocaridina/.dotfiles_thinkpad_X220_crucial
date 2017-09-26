@@ -65,7 +65,7 @@ fi
 
 ## Various aliases
 
-alias sx='startx -- -keeptty -nolisten tcp >> /tmp/xsession-errors.log 2>&1'
+alias sx='startx -- -keeptty -nolisten tcp >! /tmp/xsession-errors.log 2>&1'
 
 alias upstream_git_update='git pull upstream master && git push origin master && git pull origin master'
 
