@@ -30,8 +30,12 @@ URxvt*color5: #BF3E94
 URxvt*color13: #B641CC
 
 ! cyan/bright cyan
-URxvt*color6: #09A5B3
-URxvt*color14: #3CB6F3
+!URxvt*color6: #09A5B3
+!URxvt*color14: #3CB6F3
+
+! cyan
+URxvt*color6:       #56b7a5
+URxvt*color14:      #66efd5
 
 ! light grey/white
 URxvt*color7: #AEAEAE

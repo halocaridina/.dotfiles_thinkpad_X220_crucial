@@ -31,9 +31,9 @@ fi
 # Finally start a WM of your choice, with i3 bling being the default
 case $WM in
 i3)
-    exec /usr/bin/i3 -c /home/srsantos/.i3/bling.conf
+    exec /usr/bin/i3 -c /home/srsantos/.i3/bones.conf
     ;;
-i3-bones)
+i3-bling)
     exec /usr/bin/i3 -c /home/srsantos/.i3/bones.conf
     ;;
 i3-debug)
@@ -43,6 +43,6 @@ termite)
     exec /usr/local/bin/termite_xinit.sh
     ;;
 *)
-    exec /usr/bin/i3 -c /home/srsantos/.i3/bling.conf
+    exec /usr/bin/i3 -c /home/srsantos/.i3/bones.conf
     ;;
 esac

@@ -49,7 +49,7 @@ run_watch VPN {
 
 
 wireless _first_ {
-        format_up = " : %essid @ %quality (%ip) "
+        format_up = " : %essid @ %quality - %ip "
         format_down = "  "
 }
 
@@ -67,6 +67,7 @@ battery 0 {
         status_chr = " :"
         status_bat = " :"
         status_full = " :"
+        status_unk = " :"
 }
 
 tztime local {
