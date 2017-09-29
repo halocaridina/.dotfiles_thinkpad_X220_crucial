@@ -8,7 +8,7 @@ mouse_autohide = true
 allow_bold = false
 dynamic_title = true
 urgent_on_bell = true
-clickable_url = false
+clickable_url = true
 font = xos4 Terminus 9
 scrollback_lines = 65535
 search_wrap = true
@@ -23,7 +23,7 @@ pseudo_transparency = false
 cursor_blink = off
 
 # "block", "underline" or "ibeam"
-cursor_shape = ibeam
+cursor_shape = block
 
 # $BROWSER is used by default
 browser = luakit
@@ -37,7 +37,8 @@ browser = luakit
 foreground      = #babdb6
 foreground_bold = #babdb6
 cursor          = #babdb6
-background = rgba(0, 0, 0, 0.10)
+#background = rgba(0, 0, 0, 0.10)
+background = #222222
 
 # black
 color0  = #2e3436
