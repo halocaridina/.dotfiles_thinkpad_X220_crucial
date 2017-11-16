@@ -3,12 +3,12 @@
 ######################
 
 # thumb wheel up => change browser tab to right
-"xte 'keydown Control_L' 'key Right' 'keyup Control_L'"
-    b:6
+#"xte 'keydown Control_L' 'key Right' 'keyup Control_L'"
+#    b:6
 
 # thumb wheel down => change browser tab to left
-"xte 'keydown Control_L' 'key Left' 'keyup Control_L'"
-    b:7
+#"xte 'keydown Control_L' 'key Left' 'keyup Control_L'"
+#    b:7
 
 # backward button => previous i3 workspace
 "xte 'keydown Super_L' 'key comma' 'keyup Super_L'"
@@ -25,6 +25,7 @@
 # might interfere and trigger unwanted actions. By the sleep we make sure that
 # the Alt+Left is receive as distinct event.
 
-"sleep 0.1 && xte 'keydown Super_L' 'key x' 'keyup Super_L'"
-   Control+Alt+Mod2 + Tab
-
+#"sleep 0.1 && xte 'keydown Super_L' 'key x' 'keyup Super_L'"
+#   Control+Alt+Mod2 + Tab
+"xte 'keydown Super_L' 'key x' 'keyup Super_L'"
+   b:10
