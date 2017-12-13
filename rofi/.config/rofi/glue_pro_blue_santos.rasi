@@ -7,7 +7,7 @@
     selected-normal-foreground:  rgba ( 255, 255, 255, 100 % );
     foreground:                  rgba ( 255, 255, 255, 100 % );
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 78, 78, 78, 40% );
+    alternate-normal-background: rgba ( 78, 78, 78, 30% );
     red:                         rgba ( 220, 50, 47, 100 % );
     selected-urgent-foreground:  rgba ( 255, 255, 255, 100 % );
     blue:                        rgba ( 57, 120, 180, 100 % );
@@ -20,7 +20,7 @@
     background:                  rgba ( 57, 57, 57, 95 % );
     bordercolor:                 rgba ( 78, 78, 78, 40% );
     alternate-normal-foreground: @foreground;
-    normal-background:           rgba ( 57, 57, 57, 100 % );
+    normal-background:           rgba ( 57, 57, 57, 40 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     selected-normal-background:  rgba ( 57, 120, 180, 100 % );
     border-color:                @foreground;
