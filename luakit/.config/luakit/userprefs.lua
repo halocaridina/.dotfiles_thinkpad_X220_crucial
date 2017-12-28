@@ -12,8 +12,10 @@ settings.window.load_etc_hosts                        = false
 -- settings.on["all"].webview.enable_webgl               = true
 settings.webview.zoom_level                          = 110
 settings.webview.enable_webgl                        = true
-settings.on["youtube.com"].webview.enable_javascript  = true
-settings.on["youtube.com"].webview.enable_plugins     = true
+settings.webview.enable_javascript                   = true
+settings.webview.enable_plugins                      = true
+-- settings.on["youtube.com"].webview.enable_javascript  = true
+-- settings.on["youtube.com"].webview.enable_plugins     = true
 
 settings.window.search_engines.archwiki               = "https://wiki.archlinux.org/?search=%s"
 settings.window.search_engines.aur                    = "https://aur.archlinux.org/packages.php?O=0&K=%s&do_Search=Go"
