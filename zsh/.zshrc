@@ -63,6 +63,8 @@ if [ "$TERM" != "dumb" ]; then
         alias grep='grep --color=auto'
 fi
 
+###youtube-dl --extract-audio --audio-format mp3 -o In_the_Meantime.mp3 'https://www.youtube.com/watch?v=TDkhl-CgETg'
+
 ## Various aliases
 
 alias sx='startx -- -keeptty -nolisten tcp >! /tmp/xsession-errors.log 2>&1'
