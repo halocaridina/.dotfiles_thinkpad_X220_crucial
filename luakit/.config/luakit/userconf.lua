@@ -8,14 +8,12 @@ settings.window.new_window_size                       = "1366x768"
 settings.window.load_etc_hosts                        = false
 -- settings.vertical_tabs.sidebar_width                  = 200
 
--- settings.on["all"].webview.zoom_level                 = 110
--- settings.on["all"].webview.enable_webgl               = true
-settings.webview.zoom_level                          = 110
-settings.webview.enable_webgl                        = true
-settings.webview.enable_javascript                   = true
-settings.webview.enable_plugins                      = true
--- settings.on["youtube.com"].webview.enable_javascript  = true
--- settings.on["youtube.com"].webview.enable_plugins     = true
+settings.webview.zoom_level                           = 120
+settings.webview.zoom_text_only                       = true
+settings.webview.enable_webgl                         = true
+
+settings.on["youtube.com"].webview.enable_javascript  = true
+settings.on["youtube.com"].webview.enable_plugins     = true
 
 settings.window.search_engines.archwiki               = "https://wiki.archlinux.org/?search=%s"
 settings.window.search_engines.aur                    = "https://aur.archlinux.org/packages.php?O=0&K=%s&do_Search=Go"
@@ -27,3 +25,4 @@ settings.window.search_engines.ncbi                   = "https://www.ncbi.nlm.ni
 settings.window.search_engines.wikipedia              = "https://en.wikipedia.org/wiki/Special:Search?search=%s"
 
 settings.window.search_engines.default                = settings.window.search_engines.google
+
